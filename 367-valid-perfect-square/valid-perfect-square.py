@@ -1,6 +1,6 @@
 class Solution:
     def isPerfectSquare(self, num: int) -> bool:
-        pre = 1e-15
+        pre = 1e-10
         side = num
 
         while True:
