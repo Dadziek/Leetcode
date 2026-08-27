@@ -1,7 +1,7 @@
 class Solution {
 public:
     string lexGreaterPermutation(string s, string target) {
-int n = s.length();
+        int n = s.length();
         vector<int> count(26, 0);
         for (char c : s) {
             count[c - 'a']++;
